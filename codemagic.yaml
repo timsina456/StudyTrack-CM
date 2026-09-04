@@ -1,0 +1,18 @@
+workflows:
+  android-build:
+    name: Android Build Workflow
+    max_build_duration: 60
+    instance_type: mac_mini_m1
+    scripts:
+      - name: Unzip project archive
+        script: |
+          unzip -o StudyTrack-Phase1.zip -d extracted_project
+          cd extracted_project
+          chmod +x gradlew
+      - name: Build Android APK
+        script: |
+          cd extracted_project
+          ./gradlew assembleRelease
+    artifacts:
+      - extracted_project/app/build/outputs/**/*.apk
+      
