@@ -1,0 +1,2 @@
+# StudyTrack-CM
+Codemagic compile 
