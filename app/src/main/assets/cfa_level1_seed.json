@@ -1,0 +1,134 @@
+{
+  "course": {
+    "name": "CFA Level I",
+    "courseType": "Certification",
+    "targetDate": "2027-01-31",
+    "priority": 1,
+    "description": "Illustrative sample structure for CFA Level I. This is NOT the full official curriculum \u2014 it's a representative subset (5 subjects, 2 readings each, 3 LOS each) so the app has real data to work with immediately. Import the complete, current curriculum via Courses > Import CSV.",
+    "subjectLabel": "Subject",
+    "topicLabel": "Reading",
+    "losLabel": "LOS"
+  },
+  "modules": [
+    {
+      "name": "Ethical and Professional Standards",
+      "aliases": "Ethics",
+      "topics": [
+        {
+          "name": "Code of Ethics and Standards of Professional Conduct",
+          "topicNumber": 1,
+          "los": [
+            {"code": "1.a", "title": "Describe the structure of the CFA Institute Code and Standards", "estimatedMinutes": 30},
+            {"code": "1.b", "title": "Distinguish ethical conduct from merely legal conduct in investment practice", "estimatedMinutes": 30},
+            {"code": "1.c", "title": "Apply the Standards to realistic workplace scenarios", "estimatedMinutes": 40}
+          ]
+        },
+        {
+          "name": "Global Investment Performance Standards (GIPS)",
+          "topicNumber": 2,
+          "los": [
+            {"code": "2.a", "title": "Explain the objectives and scope of GIPS", "estimatedMinutes": 30},
+            {"code": "2.b", "title": "Describe the requirements for a compliant performance presentation", "estimatedMinutes": 30},
+            {"code": "2.c", "title": "Identify common GIPS compliance pitfalls", "estimatedMinutes": 30}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quantitative Methods",
+      "aliases": "Quant",
+      "topics": [
+        {
+          "name": "Time Value of Money",
+          "topicNumber": 3,
+          "los": [
+            {"code": "3.a", "title": "Calculate the future and present value of a single cash flow", "estimatedMinutes": 30},
+            {"code": "3.b", "title": "Calculate the future and present value of an annuity", "estimatedMinutes": 35},
+            {"code": "3.c", "title": "Solve time value problems for uneven cash flow series", "estimatedMinutes": 40}
+          ]
+        },
+        {
+          "name": "Statistical Measures of Central Tendency and Dispersion",
+          "topicNumber": 4,
+          "los": [
+            {"code": "4.a", "title": "Calculate and interpret measures of central tendency", "estimatedMinutes": 35},
+            {"code": "4.b", "title": "Calculate and interpret measures of dispersion", "estimatedMinutes": 35},
+            {"code": "4.c", "title": "Distinguish between population and sample statistics", "estimatedMinutes": 30}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economics",
+      "aliases": "Econ",
+      "topics": [
+        {
+          "name": "Demand and Supply Analysis",
+          "topicNumber": 5,
+          "los": [
+            {"code": "5.a", "title": "Describe the law of demand and the law of supply", "estimatedMinutes": 30},
+            {"code": "5.b", "title": "Explain the effects of shifts in demand and supply curves", "estimatedMinutes": 35},
+            {"code": "5.c", "title": "Calculate and interpret price elasticity of demand", "estimatedMinutes": 35}
+          ]
+        },
+        {
+          "name": "Aggregate Output, Prices, and Economic Growth",
+          "topicNumber": 6,
+          "los": [
+            {"code": "6.a", "title": "Explain the components of GDP from both expenditure and income approaches", "estimatedMinutes": 30},
+            {"code": "6.b", "title": "Compare the sources of economic growth across economies", "estimatedMinutes": 35},
+            {"code": "6.c", "title": "Explain the relationship between inflation and economic output", "estimatedMinutes": 35}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Financial Statement Analysis",
+      "aliases": "FSA",
+      "topics": [
+        {
+          "name": "Analyzing Income Statements",
+          "topicNumber": 28,
+          "los": [
+            {"code": "28.a", "title": "Describe the components of the income statement", "estimatedMinutes": 30},
+            {"code": "28.b", "title": "Distinguish between revenue recognition methods", "estimatedMinutes": 40},
+            {"code": "28.c", "title": "Analyze the effect of non-recurring items on reported earnings", "estimatedMinutes": 40}
+          ]
+        },
+        {
+          "name": "Analyzing Balance Sheets",
+          "topicNumber": 29,
+          "los": [
+            {"code": "29.a", "title": "Describe the components of the balance sheet", "estimatedMinutes": 30},
+            {"code": "29.b", "title": "Evaluate liquidity and solvency using balance sheet ratios", "estimatedMinutes": 40},
+            {"code": "29.c", "title": "Analyze off-balance-sheet items and their effect on reported ratios", "estimatedMinutes": 35}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fixed Income",
+      "aliases": "FI",
+      "topics": [
+        {
+          "name": "Fixed-Income Securities: Defining Elements",
+          "topicNumber": 42,
+          "los": [
+            {"code": "42.a", "title": "Describe the basic features of a fixed-income security", "estimatedMinutes": 30},
+            {"code": "42.b", "title": "Describe contingency provisions affecting bond cash flows", "estimatedMinutes": 35},
+            {"code": "42.c", "title": "Identify common issuers of fixed-income securities", "estimatedMinutes": 30}
+          ]
+        },
+        {
+          "name": "Understanding Fixed-Income Risk and Return",
+          "topicNumber": 43,
+          "los": [
+            {"code": "43.a", "title": "Calculate and interpret Macaulay and modified duration", "estimatedMinutes": 40},
+            {"code": "43.b", "title": "Explain how convexity affects the price-yield relationship", "estimatedMinutes": 40},
+            {"code": "43.c", "title": "Evaluate the effect of credit spread changes on bond prices", "estimatedMinutes": 40}
+          ]
+        }
+      ]
+    }
+  ]
+}

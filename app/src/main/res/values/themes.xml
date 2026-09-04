@@ -1,0 +1,4 @@
+<resources>
+    <!-- Only used for the window background before Compose takes over. -->
+    <style name="Theme.StudyTrack" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
