@@ -1,18 +1,18 @@
 workflows:
   android-build:
-    name: Android Build Workflow
+    name: StudyTrack Android Build
     max_build_duration: 60
-    instance_type: mac_mini_m1
+    instance_type: mac_mini_m2
+
     scripts:
-      - name: Unzip project archive
+      - name: Set Android SDK location
         script: |
-          unzip -o StudyTrack-Phase1.zip -d extracted_project
-          cd extracted_project
-          chmod +x gradlew
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/local.properties"
+
       - name: Build Android APK
         script: |
-          cd extracted_project
+          chmod +x gradlew
           ./gradlew assembleRelease
+
     artifacts:
-      - extracted_project/app/build/outputs/**/*.apk
-      
+      - app/build/outputs/**/*.apk
